@@ -1,0 +1,35 @@
+// リソースID 1, タイプ 24 (RT_MANIFEST): ComCtl32 v6 有効化マニフェスト
+1 24 "multi-mouse-tool.exe.manifest"
+
+// アプリケーションアイコン（リソースID 2）
+2 ICON "app.ico"
+
+// バージョン情報
+1 VERSIONINFO
+FILEVERSION     0,1,0,0
+PRODUCTVERSION  0,1,0,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          0x40004L
+FILETYPE        0x1L
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName",      "kkk6661972"
+            VALUE "FileDescription",  "Multi Mouse Tool"
+            VALUE "FileVersion",      "0.1.0"
+            VALUE "InternalName",     "multi-mouse-tool"
+            VALUE "LegalCopyright",   "Copyright (c) 2025 kkk6661972"
+            VALUE "OriginalFilename", "multi-mouse-tool.exe"
+            VALUE "ProductName",      "Multi Mouse Tool"
+            VALUE "ProductVersion",   "0.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0411, 1200
+    END
+END
